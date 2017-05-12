@@ -1,0 +1,268 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: $base-font;
+  font-size: $base-font-size;
+  line-height: 1.6;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content-container {
+  max-width: 48rem;
+  padding: 5rem 1rem;
+  margin-left:  auto;
+  margin-right: auto;
+
+  @media (max-width: 48rem){
+    padding: 2rem 1.3rem;
+  }
+}
+
+
+/*--------------
+  Header
+  -------------- */
+.header {
+  padding: 2%;
+  margin-bottom: 1.5em;
+
+  &-title {
+    margin-bottom: 0.3em;
+    font-size: 2.25em;
+    line-height: 1.2em;
+    font-weight: 600;
+
+    a {
+      color: $base-color;
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+
+    span {
+      color: $oc-gray-5;
+    }
+
+  }
+
+  &-nav {
+    a {
+      color: $oc-gray-7;
+      text-transform: lowercase;
+      -webkit-transition: all .2s ease;
+         -moz-transition: all .2s ease;
+              transition: all .2s ease;
+      margin-right: .3rem;
+
+      &:hover,
+      &:focus {
+        color: $oc-gray-7;
+        text-decoration: none;
+      }
+    }
+  }
+
+  &-small {
+    text-align: left;
+    font-size: .75rem;
+    margin-bottom: .75rem;
+
+    .header-title {
+      margin-bottom: 0;
+      font-size: .75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    a {
+      color: $base-color;
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+/*--------------
+  Page
+  -------------- */
+
+.page {
+  &-title {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 2.25em;
+    line-height: 1.2em;
+    font-weight: 600;
+  }
+}
+
+
+/*--------------
+  Post
+  -------------- */
+.post {
+
+  &-title {
+    margin-top: 0rem;
+    margin-bottom: 0.3rem;
+    font-size: 2.25em;
+    line-height: 1.2em;
+    font-weight: 600;
+  }
+
+  &-date {
+    margin-bottom: 1.5rem;
+    color: $oc-gray-8;
+    font-size: .75rem;
+    text-transform: uppercase;
+  }
+
+  &-disqus {
+    margin-top: 4rem;
+  }
+
+}
+
+/*--------------
+  Post list
+  -------------- */
+
+.list {
+  &-post {
+    padding: 4% 2%;
+
+    &:hover {
+      background-color: $background-over-color;
+      border-color: transparent;
+      border-radius: 10px;
+    }
+
+    a {
+      color: $base-color;
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+      }
+    }
+
+    &-title {
+      margin-bottom: .3rem;
+      font-size : 1.8rem;
+      font-weight: 600;
+    }
+
+    &-date {
+      color: $base-lighten-color;
+      font-size: .8rem;
+      text-transform: uppercase;
+    }
+
+    &-desc {
+      color: $base-color;
+      margin-bottom: .25rem;
+      font-size :1rem;
+    }
+  }
+
+  &-pagination {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    // text-transform: lowercase;
+
+    &-previous {
+      float: left;
+      padding-left: 2%;
+      a {
+        color: $oc-gray-6;
+
+        &:hover,
+        &:focus {
+          color: $oc-gray-7;
+          text-decoration: none;
+        }
+      }
+    }
+
+    &-next {
+      float: right;
+      padding-right: 2%;
+      a {
+        color: $oc-gray-6;
+
+        &:hover {
+          color: $oc-gray-7;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+/*--------------
+  Archive
+  -------------- */
+.archive {
+  &-list {
+    &-post {
+      padding: 0.1rem;
+
+      &:hover {
+        background-color: $background-over-color;
+        border-color: transparent;
+        border-radius: 2px;
+      }
+
+      a {
+        color: $base-color;
+
+        &:hover,
+        &:focus {
+          text-decoration: none;
+        }
+      }
+
+      &-title {
+        font-size : 1.2rem;
+        font-weight: 400;
+      }
+
+      &-date {
+        color: $base-lighten-color;
+        font-size: .75rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+/*--------------
+  Footer
+  -------------- */
+.footer {
+  text-align: center;
+  font-size: .75rem;
+
+  &-link {
+    margin: .2rem;
+
+    a {
+      color: $base-color;
+      margin: 4px;
+    }
+  }
+}

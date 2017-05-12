@@ -1,0 +1,70 @@
+==================================================================
+https://keybase.io/tjwallace
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://tjwallace.ca
+  * I am tjwallace (https://keybase.io/tjwallace) on keybase.
+  * I have a public key with fingerprint 240B CDEB 6AC4 083B E11C  DF4A 9485 A298 8BEF 9040
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "240bcdeb6ac4083be11cdf4a9485a2988bef9040",
+            "host": "keybase.io",
+            "key_id": "9485a2988bef9040",
+            "uid": "857ccb9b724c8dc17041c618813a4400",
+            "username": "tjwallace"
+        },
+        "service": {
+            "hostname": "tjwallace.ca",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1397244492,
+    "expire_in": 157680000,
+    "prev": "6a7c42ad3db29ff8812702af51f5ba88cd7e679f0cddd56d71ac618fb427a3f3",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.5
+Comment: https://keybase.io/crypto
+
+yML8AnicbZF9TBt1GMevvKxCYBnM1mGco5cJyBi7u157d4XNOGqESbuJKwZwa+61
+Oyi9rlcKBRYVGKPJFt3YnEOlWgOKNIVJl0wZGWND9+IibMwZHBuSKRBhDkKizrf9
+SvQf4/1zd8/z+X6f55vnQmI0FK9IubMjE+8bRxVXBheroJfytxbWwYzEeWFDHVzB
+L78E0WHjXU6X6HDDBhjDEYbleEZPszhCahkeRVlOwGkKJ3U0RpEkwwsUgiNwFrxH
+kiMKYMPQMp8tSqAGfqwiB6r/w1ctN0gdwbIMxRAYzpIcixIIjrJ6lCRRLY3jyDIo
+8y4HXckD2l1eTdvtNMvD+7JgUPaI4BMsHZn9XySbpYHY6ZLcEivZQWeP2+00RIRu
+rzNCVvOM9R8PKyM6OBAcCDy8SxYlB2xAAcm6xYgpqqXAfjhOYVkwX+MUXbxVjBA6
+Qk8i4ImM4T3AUk8TLI7RnJZjMEoQQAqMQDBa0KGCjqFJkuUIXk9QAsJyHKfTcwRK
+R8IKDI4RtFbQgvkyv9chwQYCrEnbgKUs2hy0u8oFIg+deyUGUsRDK2KjIqeD4uNW
+/XvQ45OroMDnfZx6XPRppsNB+fVYJLqj0GL8pH+sp9Y7P6eEhw56sUDuF9eeXH2p
+2fxBe0mSIrMxLmSoD55++VJC9eLg+fsLz1QqRybCwV5b6WZc/Zk6oT78YIcZsVzu
+Uk4dHnu2aWZqDEtWmKybjlcObjmCzyz4B5p+yvC/s5g4nJYf9+nXnR02f3zKUkrj
+0mh29Fe56TdP9Nyg0teuCN89JvviDk5ExbR1+TxXTm/+voBqazAWMeMV7Abve/MF
+1+eHn+43572dUVtyypT5GvzxRqfzYo6z0H/LdfXokWP1vkdQ40bfY9D270bU0Lrn
+0LFUzIdaLEkLu+7lyn+k5tU12Ls2FCuTNCbrfq7h1/ZGu0q/y/wgeWHfIcJ4u32l
+vFY4YG4L5Kk+bBkQ1t/ZrUkP720JfductGVq96EDyb9vr8hv+iUrrSMAJRaflHTD
+o1tv0xbVGzkTL5w5Ojq5viYmuN8nBRTbzlUNhxLOmgYebyl2FJdGl6lymjM0d8tb
+l8r6/1LpZt4qPfXmyOiLnvLF2VuHfzxx/6mibut07RNR81NL39R0lMfapNTLFwyP
+zvZJoXUftT7/8426uemhnd1rguLFlInf5r68uW3lu2cWuinkByRZur76bGeR0Vvm
+KS3xF1x736medJ+f7Wlt3JRm+luvytDsTL0nh672nizpVAYLY3tn/3z1IbcViV4=
+=Q3G0
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tjwallace
+
+==================================================================

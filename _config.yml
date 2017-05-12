@@ -1,0 +1,65 @@
+name:               "TJ Wallace"
+
+author:
+  name:             Jeff Wallace
+  twitter:          tjwallace
+  github:           tjwallace
+
+copyright:
+  year:             2017
+  name:             Jeff Wallace
+
+google-analytics:
+  id:               "UA-8781771-1"
+disqus:
+  id:               "tjwallace"
+
+# URL
+url:                "https://tjwallace.ca"
+baseurl:            "" # the subpath of your site, e.g. /blog
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           America/Vancouver
+permalink:          /:year-:month-:day/:title/
+
+paginate:           5
+paginate_path:      /page:num/
+
+markdown:           kramdown
+kramdown:
+  input:            GFM
+
+nav:
+  - name:           "About"
+    url:            "/about"
+  - name:           "Archive"
+    url:            "/archive"
+
+sass:
+  sass_dir:         _sass
+  style:            :compressed
+
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
+gems:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+
+include:
+  - .well-known
+exclude:
+  - Gemfile
+  - Gemfile.lock
