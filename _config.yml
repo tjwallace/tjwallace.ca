@@ -31,9 +31,9 @@ kramdown:
 
 nav:
   - name:           "About"
-    url:            "/about"
+    url:            "/about/"
   - name:           "Archive"
-    url:            "/archive"
+    url:            "/archive/"
 
 sass:
   sass_dir:         _sass
@@ -61,3 +61,4 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - s3_website.yml

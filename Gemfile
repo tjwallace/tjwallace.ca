@@ -1,9 +1,10 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
 
-# If you have any plugins, put them here!
+gem 'jekyll'
+gem 's3_website'
+
 group :jekyll_plugins do
-  gem 'github-pages'
   gem 'jekyll-paginate'
   gem 'jekyll-feed'
   gem 'jekyll-seo-tag'
