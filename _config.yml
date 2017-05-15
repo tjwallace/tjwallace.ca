@@ -58,8 +58,6 @@ gems:
   - jekyll-feed
   - jekyll-seo-tag
 
-include:
-  - .well-known
 exclude:
   - Gemfile
   - Gemfile.lock
