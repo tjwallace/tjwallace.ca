@@ -3,6 +3,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
 
+  {% include google-analytics.html %}
+  {% include segment.html %}
+
   <!-- CSS -->
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" type="text/css">
 
@@ -13,6 +16,4 @@
 
   {% feed_meta %}
   {% seo %}
-
-  {% include google-analytics.html %}
 </head>
